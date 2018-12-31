@@ -8,7 +8,7 @@ from tqdm import tqdm,trange
 import time,datetime
 
 start = datetime.datetime.now()
-zhwiki = '/Users/yangyang/Desktop/NLP/data/zhwiki-latest-pages-articles.xml.bz2'
+zhwiki = '/NLP/data/zhwiki-latest-pages-articles.xml.bz2'
 strs = []
 i = 0
 f = codecs.open('./zhiwiki.txt','a','utf-8')
